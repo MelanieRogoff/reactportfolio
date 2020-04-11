@@ -1,0 +1,80 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "../src/images/burgerapp.png",
+      "sizes": "100x100 250x250",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "../src/images/email.png",
+      "type": "image/png",
+      "sizes": "64x64 32x32 24x24 16x16"
+    },
+    {
+        "src": "./src/images/email.png",
+        "type": "image/png",
+        "sizes": "64x64 32x32 24x24 16x16"
+    },
+    {
+        "src": "./src/images/giticon.png",
+        "type": "image/png",
+        "sizes": "64x64 32x32 24x24 16x16"
+    },
+    {
+        "src": "./src/images/gitpink.png",
+        "type": "image/png",
+        "sizes": "64x64 32x32 24x24 16x16"
+    },
+    {
+        "src": "./src/images/headshot.jpg",
+        "type": "image/jpg",
+        "sizes": "64x64 32x32 24x24 16x16 140x140 150x160 300x200"
+      },
+    {
+        "src": "./src/images/linkedin.png",
+        "type": "image/png",
+        "sizes": "64x64 32x32 24x24 16x16"
+    }, 
+    {
+        "src": "./src/images/lotapp.png",
+        "type": "image/png",
+        "sizes": "64x64 32x32 24x24 16x16 100x100 240x250"
+    },  
+    {
+        "src": "./src/images/phone.jpeg",
+        "type": "image/jpeg",
+        "sizes": "64x64 32x32 24x24 16x16"
+    },  
+    {
+        "src": "./src/images/pokemood.png",
+        "type": "image/png",
+        "sizes": "100x100 240x250"
+    },  
+    {
+        "src": "./src/images/quiz.png",
+        "type": "image/png",
+        "sizes": "100x100 240x250"
+    },  
+    {
+        "src": "./src/images/resume.png",
+        "type": "image/png",
+        "sizes": "100x100 240x250"
+    },  
+    {
+        "src": "./src/images/trackthattrack.png",
+        "type": "image/png",
+        "sizes": "100x100 240x250"
+    },  
+    {
+        "src": "./src/images/weatherapp.png",
+        "type": "image/png",
+        "sizes": "100x100 240x250"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
