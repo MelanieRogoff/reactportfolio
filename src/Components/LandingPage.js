@@ -2,7 +2,6 @@ import React from 'react';
 import image from "../images/headshot.jpg";
 import { Link } from "react-router-dom";
 
-
 function LandingPage() {
     return (
         <div>

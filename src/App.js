@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import About from './Components/About.js';
 import LandingPage from './Components/LandingPage.js';
-//import NavTabs from "./Components/NavTabs";
+import NavTabs from "./Components/NavTabs";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Contact from "./Components/Contact.js";
 // import Portfolio from "./Components/Portfolio.js";
@@ -23,7 +23,6 @@ export class App extends React.Component {
           <Router>
             <div className="App">
             <header className="App-header">
-                {/* <NavTabs /> */}
                 <Route exact path="/" component={LandingPage} />
                 <Route exact path="/About" component={About} />
                 <Route exact path="/Contact" component={Contact} />
