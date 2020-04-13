@@ -1,10 +1,8 @@
 import React from "react";
-
 import { Link, useLocation } from "react-router-dom";
 
 function NavTabs() {
     const location = useLocation();//using code from react-router to check the route anytime the user uses a link to navigate
-
     return (
         <div className="navbar">
             <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>

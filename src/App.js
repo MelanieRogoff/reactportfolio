@@ -7,8 +7,6 @@ import Contact from "./Components/Contact.js";
 import Portfolio from "./Components/Portfolio.js";
 //import Resume from "./Components/Resume.js";
 
-
-
 export class App extends React.Component {
     constructor(props) {
         super(props);

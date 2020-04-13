@@ -6,14 +6,13 @@ function LandingPage() {
     return (
         <div>
             <h1 className="card-title">Melanie Rogoff</h1>
-
+        
             <div className="example">
-            <Link to="/About">
-                
-            <img src={image} className="headshot" alt="myphoto" />
-            <div className="content">Click to Enter</div>
-            </Link>
-        </div>
+                <Link to="/About">    
+                    <img src={image} className="headshot" alt="myphoto" />
+                    <h3 className="content">Click to Enter</h3>
+                </Link>
+            </div>
         </div>
     )
 }

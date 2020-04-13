@@ -1,20 +1,16 @@
 import React from 'react';
 import weather from '../images/weatherapp.png';
-import { Card, Image } from 'semantic-ui-react'
-
 
 function Weather() {
     return (
-        <Card>
-        <Card.Header>Weather Dashboard</Card.Header>
-        <Image className="projectPhoto" src={weather} wrapped ui={false} />
-        <Card.Content>
-        <Card.Description>
-            <a className="pinky" href="https://github.com/MelanieRogoff/Unit6HW">GitHub Repo || </a>
-            <a className="pinky" href="https://melanierogoff.github.io/Unit6HW/">Deployed Site</a>
-        </Card.Description>
-        </Card.Content>
-        </Card>
+        <div className="card2">
+        <img src={weather} className="projectPhotos" alt="weatherapp" />
+            <div className="card-body">
+                <h4 className="card-title">Weather Dashboard</h4>
+                    <a className="linkText" href="https://github.com/MelanieRogoff/Unit6HW">GitHub Repo || </a>
+                    <a className="linkText" href="https://melanierogoff.github.io/Unit6HW/">Deployed Site</a>
+            </div>
+    </div>
 
     )
 }

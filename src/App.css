@@ -14,19 +14,10 @@
     color: white;
 }
 
-.devicon-babel-plain {
-    height: 800px !important;
-    width: 300px !important;
-}
-
 .headshot {
     height: 230px;
     width: 230px;
     border-radius: 50%;
-}
-
-.Title {
-    font-size: 30px;
 }
 
 .navbar a {
@@ -45,20 +36,22 @@
 }
 
 .card2 {
-    background: #ff69b4;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(219,59,208,1) 19%, rgba(0,212,255,1) 100%);
     color: white;
-    width: 450px;
+    width: 400px;
     word-wrap: break-word;
     padding-bottom: 20px;
     margin: 20px;
+    display: inline-block;
+
 }
 
-.iconSizing {
+.iconSizing { /*Sizing for the languages on About page only*/
     color: white;
     font-size: 1.5rem;
 }
 
-.icons {
+.icons { /*Icons for contact page only*/
     height: 60px;
     width: 60px;
     padding: 10px;
@@ -70,15 +63,27 @@
     color: white;
 }
 
-.projectPhotos {
+.projectPhotos { /*All the projects EXCEPT Track That Track*/
+    padding-top: 10px;
     margin-top: 10px;
     height: 260px;
     width: 340px;
+    margin-left: 18px;
+}
+
+.projectPhoto { /*Styling for Track That Track photo only*/
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    height: 280px;
+    width: 340px;
+    margin-left: 10px;
 }
 
 p {
     font-size: 20px;
 }
+
 /* Hover text for Landing Page */
 .example{
 position:relative;
