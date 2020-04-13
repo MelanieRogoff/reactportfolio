@@ -7,10 +7,14 @@ function LandingPage() {
         <div>
             <h1 className="card-title">Melanie Rogoff</h1>
 
+            <div className="example">
             <Link to="/About">
+                
             <img src={image} className="headshot" alt="myphoto" />
+            <div className="content">Click to Enter</div>
             </Link>
-        </div> 
+        </div>
+        </div>
     )
 }
 

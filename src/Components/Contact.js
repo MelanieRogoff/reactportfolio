@@ -1,90 +1,35 @@
 import React from "react";
-import axios from 'axios';
-class Contact extends React.Component {
-  
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: '',
-            email: '',
-            message: ''
-        }
-    }
-    
-    handleSubmit(e) {
-            e.preventDefault();
-            axios({
-                method: "POST",
-                url:"http://localhost:3002/send",
-                data: this.state
-            })
-            .then((response) => {
-                if (response.data.status === 'success') {
-                    alert("Message Sent.");
-                    this.resetForm();
-                } else if (response.data.status === 'fail') {
-                    alert("Message failed. Please try again.")
-                }
-            })
-        }
+import linkedIn from "../images/linkedin.png"
+import gitpink from "../images/gitpink.png"
+import phone from "../images/phone.jpeg";
+import email from "../images/email.png";
+import { Link } from "react-router-dom";
+import NavTabs from "./NavTabs.js";
 
+function Contact() {
+    return (
+    <div>
+       <NavTabs />
+            <button className="btn btn-primary">Contact</button>
+                <p>Let's get in touch!</p>
+        
+                <a href="https://www.linkedin.com/in/MelanieRogoff">        
+                    <img src={linkedIn} className="icons" alt="linkedin" />
+                    </a>
 
-            resetForm() {
-                this.setState({
-                    name: '',
-                    email: '',
-                    message: ''
-                })
-            }
+                <a href="https://github.com/MelanieRogoff">        
+                    <img src={gitpink} className="icons" alt="github" />
+                </a>
 
+                <a href="tel:1-480-720-7836">        
+                    <img src={phone} className="icons" alt="phone" />
+                </a>
 
-
-    render() {
-        return(
-            <div>
-
-                <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST"> 
-
-                <div className="form-group">
-                    <h1>Contact</h1>
-                    <label htmlFor="name">Name</label>
-                    <input type="text" className="form-control" value={this.state.name} onChange={this.onNameChange.bind(this)} />
-                </div>
-
-                <div className="form-group">
-                    <label htmlFor="email">Email</label>
-                    <input type="email" className="form-control" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
-                </div>
-
-                <div className="form-group">
-                    <label htmlFor="message">Message</label>
-                    <textarea className="form-control" rows="5" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
-                </div>
-
-                <button type="submit" className="btn btn-primary">Submit</button>
-
-                </form>
-            </div>
-        );
-    }
-
-        onNameChange(event) {
-            this.setState({
-                name: event.target.value
-            })
-        }
-
-        onEmailChange(event) {
-            this.setState({
-                email: event.target.value
-            })
-        }
-
-        onMessageChange(event) {
-            this.setState({
-                message: event.target.value
-            })
-        }
-
+                <a href="mailto: mgrogoff@gmail.com">        
+                    <img src={email} className="icons" alt="email" />
+                </a>
+    </div>
+    )
 }
+
 export default Contact;
