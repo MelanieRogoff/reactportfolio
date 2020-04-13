@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.js';
+import image from "../images/headshot.jpg";
 
 function About() {
         return(
@@ -7,7 +8,9 @@ function About() {
 
             <div className="card-body">
 
-                <h1 className="card-title">About Me</h1>
+                <h3>About</h3>
+
+                <img src={image} className="headshot" alt="myphoto" />
 
                 <p className="card-text">Melanie Rogoff is a talented Full-Stack Developer. Skills include JavaScript, MySQL, React, Node, Express, and Responsive Web/App Design.</p>
 

@@ -1,8 +1,14 @@
 import React from 'react';
 import './App.css';
-import image from "./images/headshot.jpg";
-import Buttons from "./Components/Buttons.js";
 import About from './Components/About.js';
+import LandingPage from './Components/LandingPage.js';
+//import NavTabs from "./Components/NavTabs";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Contact from "./Components/Contact.js";
+import Portfolio from "./Components/Portfolio.js";
+import Resume from "./Components/Resume.js";
+
+
 
 export class App extends React.Component {
     constructor(props) {
@@ -12,19 +18,22 @@ export class App extends React.Component {
         }
     }
 
-  render() {
+    render() {
       return (
-    <div className="App">
-      <header className="App-header">
-        <p className="Title">Melanie Rogoff</p>
-        <img src={image} className="headshot" alt="myphoto" />
-        <About />
-            <Buttons onClick={this.setRedirect}>Redirect</Buttons>
-      </header>
-    </div>
-
-  );
-}
+          <Router>
+            <div className="App">
+            <header className="App-header">
+                {/* <NavTabs /> */}
+                <Route exact path="/" component={LandingPage} />
+                <Route exact path="/About" component={About} />
+                <Route exact path="/Contact" component={Contact} />
+                <Route exact path="/Portfolio" component={Portfolio} />
+                <Route exact path="/Resume" component={Resume} />
+            </header>
+        </div>
+        </Router>
+        );
+    }
 }
 
 
