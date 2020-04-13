@@ -3,7 +3,6 @@ import linkedIn from "../images/linkedin.png"
 import gitpink from "../images/gitpink.png"
 import phone from "../images/phone.jpeg";
 import email from "../images/email.png";
-import { Link } from "react-router-dom";
 import NavTabs from "./NavTabs.js";
 
 function Contact() {

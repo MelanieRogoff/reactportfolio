@@ -1,21 +1,16 @@
 import React from 'react';
 import poke from '../images/pokemood.png';
-import { Card, Icon, Image } from 'semantic-ui-react'
 
 function PokeMood() {
-    return (
-        <Card>
-         <Card.Header>PokeMood</Card.Header>
-        <Image className="projectPhoto" src={poke} wrapped ui={false} />
-        <Card.Content>
-        <Card.Description>
-            <a className="pinky" href="#">GitHub Repo || </a>
-            <a className="pinky" href="#">Deployed Site</a>
-        </Card.Description>
-        </Card.Content>
-        </Card>
-        
-            )
-        }
-
+        return (
+            <div className="card2">
+                <img src={poke} className="projectPhotos" alt="pokemood" />
+                    <div className="card-body">
+                        <h4 class="card-title">PokeMood</h4>
+                            <a class="linkText" href="https://github.com/MelanieRogoff/PokeMood">GitHub Repo || </a>
+                            <a class="linkText" href="https://murmuring-mountain-45065.herokuapp.com/">Deployed Site</a>
+                    </div>
+            </div>
+        )
+}
     export default PokeMood;

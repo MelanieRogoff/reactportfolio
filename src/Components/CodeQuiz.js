@@ -1,21 +1,18 @@
 import React from 'react';
 import code from '../images/quiz.png';
-import { Card, Icon, Image } from 'semantic-ui-react'
 
 function CodeQuiz() {
     return (
-        <Card>
-        <Card.Header>Code Quiz</Card.Header>
-        <Image className="projectPhoto" src={code} wrapped ui={false} />
-        <Card.Content>
-        <Card.Description>
-            <a className="pinky" href="#">GitHub Repo || </a>
-            <a className="pinky" href="#">Deployed Site</a>
-        </Card.Description>
-        </Card.Content>
-        </Card>
+        <div className="card2">
+        <img src={code} className="projectPhotos" alt="codequiz" />
+        <div className="card-body">
+            <h4 class="card-title">Code Quiz</h4>
+                <a class="linkText" href="https://github.com/MelanieRogoff/Unit4HW">GitHub Repo || </a>
+                <a class="linkText" href="https://melanierogoff.github.io/Unit4HW/">Deployed Site</a>
+        </div>
+        </div>
         
-            )
-        }
+        )
+    }
 
     export default CodeQuiz;

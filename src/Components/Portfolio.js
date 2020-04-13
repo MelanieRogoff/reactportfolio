@@ -5,10 +5,13 @@ import CodeQuiz from './CodeQuiz.js';
 import PokeMood from './PokeMood.js';
 import LegendsApp from './Legends.js';
 import TrackThatTrack from './TrackThatTrack.js';
+import NavTabs from "./NavTabs.js";
 
 function Portfolio() {
     return (
         <div>
+            <NavTabs />
+
         <Weather />
         <Burger />
         <CodeQuiz />

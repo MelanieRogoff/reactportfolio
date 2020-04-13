@@ -44,6 +44,15 @@
     word-wrap: break-word;
 }
 
+.card2 {
+    background: #ff69b4;
+    color: white;
+    width: 450px;
+    word-wrap: break-word;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
 .iconSizing {
     color: white;
     font-size: 1.5rem;
@@ -55,6 +64,16 @@
     padding: 10px;
     display: flex;
     margin-left: 160px;
+}
+
+.linkText {
+    color: white;
+}
+
+.projectPhotos {
+    margin-top: 10px;
+    height: 260px;
+    width: 340px;
 }
 
 p {

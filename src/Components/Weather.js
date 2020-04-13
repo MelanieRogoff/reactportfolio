@@ -1,6 +1,6 @@
 import React from 'react';
 import weather from '../images/weatherapp.png';
-import { Card, Icon, Image } from 'semantic-ui-react'
+import { Card, Image } from 'semantic-ui-react'
 
 
 function Weather() {
