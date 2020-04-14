@@ -1,0 +1,118 @@
+/* iPhone 5/SE */
+@media (width: 320px) {
+    .App-header {
+        width: 340px;
+        padding-bottom: 60px;
+    }
+    .headshot {
+        margin-bottom: -10px;
+        margin-left: 10px;
+    }
+    .headshot2 {
+        height: 200px;
+        width: 200px;
+    }
+    .content {
+        opacity:0;
+        font-size: 20px;
+        margin-left: 10px;
+        color:white;
+        width:300px;
+        height:300px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+    }
+    .card {
+        width: 270px;
+        margin-left: 40px;
+    }
+    .card2 {
+        width: 270px;
+        height: 300px;
+    }
+    button {
+        width: 300px;
+    }
+    .icons {
+        margin-left: 100px;
+    } 
+    .resumePic {
+        height: 200px;
+        width: 300px;
+    }
+    .projectPhotos {
+        width: 200px;
+        height: 190px;
+    }
+    .projectPhoto {
+        width: 200px;
+        height: 190px;
+    }
+    .navbar {
+        margin-top: 10px;
+    }
+}
+
+/* iPhone 6/7/8 & Plus, Galaxy S5, Pixel 2/Pixel 2XL */
+@media (min-width: 360px) {
+    .headshot {
+        margin-bottom: -10px;
+        margin-left: 10px;
+    }
+    .headshot2 {
+        height: 200px;
+        width: 200px;
+    }
+    .content {
+        opacity:0;
+        font-size: 20px;
+        margin-left: 10px;
+        color:white;
+        width:300px;
+        height:300px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+    }
+    .card {
+        width: 270px;
+        margin-left: 40px;
+    }
+    .card2 {
+        width: 270px;
+        height: 340px;
+    }
+    button {
+        width: 300px;
+    }
+    .icons {
+        margin-left: 100px;
+    } 
+    .resumePic {
+        height: 200px;
+        width: 300px;
+    }
+    .projectPhotos {
+        width: 200px;
+        height: 190px;
+    }
+    .projectPhoto {
+        width: 200px;
+        height: 190px;
+        padding-top: 30px;
+    }
+    .navbar {
+        margin-top: 10px;
+    }
+}
+
+
+
+/* iPhone 11 Pro, iPhone 11 Pro Max needs fixing on Landing page */
+
+/*iPad & Pro needs fixing on ALL pages*/

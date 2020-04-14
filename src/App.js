@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './Sizing.css';
 import About from './Components/About.js';
 import LandingPage from './Components/LandingPage.js';
 import { BrowserRouter as Router, Route } from "react-router-dom";
