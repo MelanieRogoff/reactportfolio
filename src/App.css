@@ -72,6 +72,7 @@
 
 .linkText {
     color: white;
+    font-size: 18px;
 }
 
 .projectPhotos { /*All the projects EXCEPT Track That Track*/
@@ -619,6 +620,12 @@ button::before {
         margin-top: -390px;
         font-weight: bold;
     }
+    .card {
+        margin-left: 110px;
+    }
+    .melRog {
+        margin-left: 40px;
+    }
 }
 
 /*SIZING FOR IPAD PRO AND HIGHER*/
@@ -701,7 +708,7 @@ button::before {
         width: 220px;
         border-radius: 60%;
         margin-bottom: -10px;
-        margin-left: 70px;
+        margin-left: 90px;
     }
     .headshot2 {
         height: 220px;
@@ -849,7 +856,7 @@ button::before {
         height: 400px;
     }
     #navnav {
-        margin-top: -618px;
+        margin-top: -18px;
         font-weight: bold;
     }
 }
