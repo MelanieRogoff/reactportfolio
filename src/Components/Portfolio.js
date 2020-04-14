@@ -11,15 +11,15 @@ function Portfolio() {
     return (
         <div>
             <NavTabs />
-            <button className="btn btn-primary">Portfolio</button><br></br>
-                <div className="col-6 col-md-3 col-lg-3">
-                    <Weather />
-                    <Burger />
-                    <CodeQuiz />
-                    <PokeMood />
-                    <LegendsApp />
-                    <TrackThatTrack />
-                </div>
+                <button className="btn btn-primary">Portfolio</button><br></br>
+                    <div className="col-6 col-md-3 col-lg-3">
+                        <Weather />
+                        <Burger />
+                        <CodeQuiz />
+                        <PokeMood />
+                        <LegendsApp />
+                        <TrackThatTrack />
+                    </div>
         </div>
     )
 }

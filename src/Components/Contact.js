@@ -12,14 +12,14 @@ function Contact() {
             <button className="btn btn-primary">Contact</button>
                 <p>Let's get in touch!</p>
         
+                <div className="card2 col-2 col-md-2 col-lg-2">
                 <a href="https://www.linkedin.com/in/MelanieRogoff">        
                     <img src={linkedIn} className="icons" alt="linkedin" />
-                    </a>
+                </a>
 
                 <a href="https://github.com/MelanieRogoff">        
                     <img src={gitpink} className="icons" alt="github" />
                 </a>
-
                 <a href="tel:1-480-720-7836">        
                     <img src={phone} className="icons" alt="phone" />
                 </a>
@@ -27,6 +27,8 @@ function Contact() {
                 <a href="mailto: mgrogoff@gmail.com">        
                     <img src={email} className="icons" alt="email" />
                 </a>
+                </div>
+
     </div>
     )
 }

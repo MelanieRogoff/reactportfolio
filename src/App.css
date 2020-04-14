@@ -12,12 +12,22 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    padding-bottom: 20px;
 }
 
 .headshot {
-    height: 230px;
-    width: 230px;
+    height: 220px;
+    width: 220px;
     border-radius: 50%;
+    margin-bottom: -10px;
+    margin-left: 50px;
+}
+
+.headshot2 {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    margin-bottom: -10px;
 }
 
 .navbar a {
@@ -31,8 +41,9 @@
 .card {
     background: #ff69b4;
     color: white;
-    width: 400px;
+    width: 500px;
     word-wrap: break-word;
+    padding-bottom: 20px;
 }
 
 .card2 {
@@ -81,48 +92,52 @@
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* Hover text for Landing Page */
 .example{
-position:relative;
-padding:0;
-width:300px;
-display:block;
-cursor:pointer;
-overflow:hidden;
+    position:relative;
+    padding:0;
+    width:300px;
+    display:block;
+    cursor:pointer;
+    overflow:hidden;
 }
 .content {
-opacity:0;
-font-size: 20px;
-position:absolute;
-top:80px;
-left:0;
-color:white;
-width:300px;
-height:300px;
--webkit-transition: all 400ms ease-out;
--moz-transition: all 400ms ease-out;
--o-transition: all 400ms ease-out;
--ms-transition: all 400ms ease-out;
-transition: all 400ms ease-out;
-text-align:center;
+    opacity:0;
+    font-size: 20px;
+    position:absolute;
+    top:80px;
+    left:0;
+    color:white;
+    width:300px;
+    height:300px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align:center;
 }
+
 .example .content:hover { opacity:1; }      
 .example .content .text {
-height:0;
-opacity:1;
-transition-delay: 0s;
-transition-duration: 0.4s;
+    height:0;
+    opacity:1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
 }
 .example .content:hover .text {
-opacity:1;
-transform: translateY(250px);
--webkit-transform: translateY(250px);
+    opacity:1;
+    transform: translateY(250px);
+    -webkit-transform: translateY(250px);
 }
 /* End hover text for Landing Page */
 
+.resumePic {
+    height: 300px;
+}
 
 /* BUTTON CSS */
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200,900');
@@ -137,7 +152,6 @@ button {
   position:relative;
   padding: 10px 20px;  
   border: none;
-  background: none;
   cursor: pointer;
   width: 400px;
   font-family: "Source Code Pro";
@@ -145,7 +159,7 @@ button {
   text-transform: uppercase;
   font-size: 20px;  
   color: var(--text-color);
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 20px;
   background-color: var(--btn-color);
   box-shadow: var(--shadow-color) 2px 2px 22px;
@@ -181,7 +195,7 @@ button:focus {
   
   background-color: var(--bg-color);
   color:transparent;
-  transition: transform .4s ease-out;
+  transition: transform .2s ease-out;
   transform: translate(0, -90%) rotate(0deg)
 }
 
@@ -228,3 +242,614 @@ button::before {
   }
 }
 /*END OF BUTTON CSS */
+
+
+@media (width: 320px) {
+    .App-header {
+        background-image: url("../src/images/bcg.jpeg");
+        background-size: cover;
+        min-height: 100vh;
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+        padding-bottom: 80px;
+    }
+
+    .headshot {
+            height: 200px;
+            width: 200px;
+            border-radius: 60%;
+            margin-bottom: -10px;
+            margin-left: 10px;
+    }
+
+    .headshot2 {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-bottom: -10px;
+        margin-top: 20px;
+    }
+    .content {
+        opacity:0;
+        font-size: 20px;
+        margin-left: 40px;
+        color:white;
+        width:300px;
+        height:300px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+    }
+    .card {
+        width: 270px;
+        margin-left: 35px;
+    }
+    button {
+        width: 300px;
+    }
+    .resumePic {
+        height: 200px;
+    }
+    #navnav {
+        margin-top: -100px;
+    }
+}
+
+@media (width: 375px) {
+
+    .App-header {
+    background-image: url("../src/images/bcg.jpeg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding-bottom: 20px;
+}
+
+.headshot {
+        height: 200px;
+        width: 200px;
+        border-radius: 60%;
+        margin-bottom: -10px;
+        margin-left: 10px;
+    }
+
+    .headshot2 {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-bottom: -10px;
+        margin-top: 20px;
+    }
+
+    .content {
+        opacity:0;
+        font-size: 20px;
+        margin-left: 40px;
+        color:white;
+        width:300px;
+        height:300px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+    }
+
+    .card {
+        width: 270px;
+        margin-left: 35px;
+    }
+    button {
+        width: 300px;
+    }
+    .resumePic {
+        height: 200px;
+    }
+    #navnav {
+        margin-top: -200px;
+    }
+
+}
+
+@media (min-width: 411px) {
+    .App-header {
+        background-image: url("../src/images/bcg.jpeg");
+        background-size: cover;
+        min-height: 100vh;
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+        padding-bottom: 80px;
+    }
+
+    .headshot {
+            height: 200px;
+            width: 200px;
+            border-radius: 60%;
+            margin-bottom: -10px;
+            margin-left: 10px;
+    }
+
+    .headshot2 {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-bottom: -10px;
+        margin-top: 20px;
+    }
+    .content {
+        opacity:0;
+        font-size: 20px;
+        margin-left: 40px;
+        color:white;
+        width:300px;
+        height:300px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+    }
+    .card {
+        width: 270px;
+        margin-left: 35px;
+    }
+    button {
+        width: 300px;
+    }
+    .resumePic {
+        height: 200px;
+    }
+    #navnav {
+        margin-top: -150px;
+    }
+}
+
+/*SIZING FOR IPAD PRO AND HIGHER*/
+@media (width: 768px) {
+    .headshot {
+        height: 220px;
+        width: 220px;
+        border-radius: 60%;
+        margin-bottom: -10px;
+        margin-left: 70px;
+    }
+    .headshot2 {
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+        margin-bottom: -10px;
+        margin-top: 20px;
+    }
+    .content {
+        opacity:0;
+        font-size: 20px;
+        margin-left: 40px;
+        color:white;
+        width:300px;
+        height:300px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+    }
+    button {
+        margin-top: 20px;
+        width: 500px;
+    }
+    .navbar {
+        margin-top: -80px;
+    }
+    .resumePic {
+        height: 400px;
+    }
+    #navnav {
+        margin-top: -280px;
+        font-weight: bold;
+    }
+}
+/*SIZING FOR IPAD PRO AND HIGHER*/
+@media (min-width: 1125px) {
+    
+    .headshot {
+        height: 220px;
+        width: 220px;
+        border-radius: 60%;
+        margin-bottom: -10px;
+        margin-left: 90px;
+    }
+    .melRog {
+        margin-left: -20px;
+    }
+
+    .headshot2 {
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+        margin-bottom: -10px;
+        margin-top: 20px;
+    }
+
+    .content {
+        opacity:0;
+        font-size: 20px;
+        margin-left: 40px;
+        color:white;
+        width:300px;
+        height:300px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+    }
+    button {
+        margin-top: 20px;
+    }
+}
+
+/*GALAXY S5 SIZING ONLY*/
+@media (width: 360px) {
+    .App-header {
+        background-image: url("../src/images/bcg.jpeg");
+        background-size: cover;
+        min-height: 100vh;
+        width: 530px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+        padding-bottom: 380px;
+    }
+    .headshot {
+        height: 220px;
+        width: 220px;
+        border-radius: 60%;
+        margin-bottom: -10px;
+        margin-left: 70px;
+    }
+    .headshot2 {
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+        margin-bottom: -10px;
+        margin-top: 20px;
+    }
+    .content {
+        opacity:0;
+        font-size: 20px;
+        margin-left: 40px;
+        color:white;
+        width:300px;
+        height:300px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+    }
+    button {
+        margin-top: 20px;
+        width: 300px;
+    }
+    .navbar {
+        margin-top: -80px;
+    }
+    .resumePic {
+        height: 300px;
+    }
+    #navnav {
+        margin-top: 90px;
+        font-weight: bold;
+    }
+}
+
+/*iPad Mini Sizing*/
+@media (min-width: 768px) {
+    .App-header {
+        background-image: url("../src/images/bcg.jpeg");
+        background-size: cover;
+        min-height: 100vh;
+        width: 830px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+        padding-bottom: 380px;
+    }
+    .headshot {
+        height: 220px;
+        width: 220px;
+        border-radius: 60%;
+        margin-bottom: -10px;
+        margin-left: 70px;
+    }
+    .headshot2 {
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+        margin-bottom: -10px;
+        margin-top: 20px;
+    }
+    .content {
+        opacity:0;
+        font-size: 20px;
+        margin-left: 40px;
+        color:white;
+        width:300px;
+        height:300px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+    }
+    button {
+        margin-top: 20px;
+        width: 300px;
+    }
+    .navbar {
+        margin-top: -80px;
+    }
+    .resumePic {
+        height: 300px;
+    }
+    #navnav {
+        margin-top: -390px;
+        font-weight: bold;
+    }
+}
+
+/*SIZING FOR IPAD PRO AND HIGHER*/
+@media (min-width: 1125px) {
+.App-header {
+        background-image: url("../src/images/bcg.jpeg");
+        background-size: cover;
+        min-height: 100vh;
+        width: 1230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+        padding-bottom: 380px;
+    }
+    .headshot {
+        height: 220px;
+        width: 220px;
+        border-radius: 60%;
+        margin-bottom: -10px;
+        margin-left: 90px;
+    }
+    .melRog {
+        margin-left: -20px;
+    }
+
+    .headshot2 {
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+        margin-bottom: -10px;
+        margin-top: 20px;
+    }
+
+    .content {
+        opacity:0;
+        font-size: 20px;
+        margin-left: 40px;
+        color:white;
+        width:300px;
+        height:300px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+    }
+    button {
+        margin-top: 20px;
+    }
+    #navnav {
+        margin-top: -500px;
+    }
+    .resumePic {
+        height: 400px;
+    }
+}
+
+
+
+/*SIZING FOR IPAD PRO AND HIGHER*/
+@media (width: 1024px) {
+    .App-header {
+        background-image: url("../src/images/bcg.jpeg");
+        background-size: cover;
+        min-height: 100vh;
+        width: 1230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+        padding-bottom: 380px;
+    }
+    .headshot {
+        height: 220px;
+        width: 220px;
+        border-radius: 60%;
+        margin-bottom: -10px;
+        margin-left: 70px;
+    }
+    .headshot2 {
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+        margin-bottom: -10px;
+        margin-top: 20px;
+    }
+    .content {
+        opacity:0;
+        font-size: 20px;
+        margin-left: 40px;
+        color:white;
+        width:300px;
+        height:300px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+    }
+    button {
+        margin-top: 20px;
+        width: 500px;
+    }
+    .navbar {
+        margin-top: -80px;
+    }
+    .resumePic {
+        height: 400px;
+    }
+    #navnav {
+        margin-top: -320px;
+        font-weight: bold;
+    }
+}
+
+/*SIZING FOR IPAD PRO AND HIGHER*/
+@media (min-height: 500px) {
+    .App-header {
+        background-image: url("../src/images/bcg.jpeg");
+        background-size: cover;
+        min-height: 100vh;
+        width: 1230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+        padding-bottom: 80px;
+    }
+    .headshot {
+        height: 220px;
+        width: 220px;
+        border-radius: 60%;
+        margin-bottom: -10px;
+        margin-left: 70px;
+    }
+    .headshot2 {
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+        margin-bottom: -10px;
+        margin-top: 20px;
+    }
+    .content {
+        opacity:0;
+        font-size: 20px;
+        margin-left: 40px;
+        color:white;
+        width:300px;
+        height:300px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+    }
+    button {
+        margin-top: 20px;
+        width: 500px;
+    }
+    .navbar {
+        margin-top: -80px;
+    }
+    .resumePic {
+        height: 400px;
+    }
+    #navnav {
+        margin-top: 20px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 1112px) {
+    .App-header {
+        background-image: url("../src/images/bcg.jpeg");
+        background-size: cover;
+        min-height: 100vh;
+        width: 1230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+        padding-bottom: 80px;
+    }
+    .headshot {
+        height: 220px;
+        width: 220px;
+        border-radius: 60%;
+        margin-bottom: -10px;
+        margin-left: 70px;
+    }
+    .headshot2 {
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+        margin-bottom: -10px;
+        margin-top: 20px;
+    }
+    .content {
+        opacity:0;
+        font-size: 20px;
+        margin-left: 40px;
+        color:white;
+        width:300px;
+        height:300px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+    }
+    button {
+        margin-top: 20px;
+        width: 500px;
+    }
+    .navbar {
+        margin-top: -80px;
+    }
+    .resumePic {
+        height: 400px;
+    }
+    #navnav {
+        margin-top: -618px;
+        font-weight: bold;
+    }
+}

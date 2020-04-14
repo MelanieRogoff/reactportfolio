@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function LandingPage() {
     return (
         <div>
-            <h1 className="card-title">Melanie Rogoff</h1>
+            <h1 className="card-title melRog">Melanie Rogoff</h1>
         
             <div className="example">
                 <Link to="/About">    
