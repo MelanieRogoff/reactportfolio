@@ -1,5 +1,5 @@
 import React from 'react';
-import code from '../images/quiz.png';
+import code from '../../images/quiz.png';
 
 function CodeQuiz() {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import poke from '../images/pokemood.png';
+import poke from '../../images/pokemood.png';
 
 function PokeMood() {
     return (

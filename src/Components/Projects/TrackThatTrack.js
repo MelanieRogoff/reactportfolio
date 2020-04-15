@@ -1,5 +1,5 @@
 import React from 'react';
-import track from '../images/trackthattrack.png';
+import track from '../../images/trackthattrack.png';
 
 function TrackThatTrack() {
     return (

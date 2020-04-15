@@ -1,5 +1,5 @@
 import React from 'react';
-import legends from '../images/lotapp.png';
+import legends from '../../images/lotapp.png';
 
 function LegendsApp() {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import weather from '../images/weatherapp.png';
+import weather from '../../images/weatherapp.png';
 
 function Weather() {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import burger from '../images/burgerapp.png';
+import burger from '../../images/burgerapp.png';
 
 function Burger() {
     return (
