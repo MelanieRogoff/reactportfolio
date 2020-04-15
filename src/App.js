@@ -9,13 +9,6 @@ import Portfolio from "./Components/Pages/Portfolio.js";
 import Resume from "./Components/Pages/Resume.js";
 
 export class App extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            //figure this out
-        }
-    }
-
     render() {
       return (
           <div className="App">
@@ -26,12 +19,9 @@ export class App extends React.Component {
                 <Route exact path="/Portfolio" component={Portfolio} />
                 <Route exact path="/Resume" component={Resume} />
         </Router>
-
         </div>
         );
     }
 }
-
-
 
 export default App;

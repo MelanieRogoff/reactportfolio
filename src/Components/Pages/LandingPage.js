@@ -3,14 +3,18 @@ import image from "../../images/headshot.jpg";
 import { Link } from "react-router-dom";
 import Footer from "../Layouts/Footer.js";
 import Header from "../Layouts/Header.js";
+import './../../App.css';
+
 
 function LandingPage() {
     return (
-        <div>   
+        <div className="container">   
             <Header />
                 <Link to="/About">    
                     <img src={image} className="headshot" alt="myphoto" />
-                        <h3 className="content">Click to Enter</h3>
+                        <div className="overlay">
+                        <h2 className="text">Click to Enter</h2>
+                        </div>
                 </Link>
             <Footer />
         </div>
