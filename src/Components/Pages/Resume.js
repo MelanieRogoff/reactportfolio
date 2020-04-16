@@ -1,6 +1,6 @@
 import React from "react";
 import NavTabs from "./../NavTabs.js";
-import resume from "../../images/res.jpg";
+import resume from "../../images/resumepg.png";
 import Footer from "../Layouts/Footer.js";
 import Header from "../Layouts/Header.js";
 
