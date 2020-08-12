@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8d1266e4.chunk.css",
+    "main.js": "/static/js/main.1cefe1e5.chunk.js",
+    "main.js.map": "/static/js/main.1cefe1e5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0eeac3f4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0eeac3f4.js.map",
+    "static/js/2.5549e81f.chunk.js": "/static/js/2.5549e81f.chunk.js",
+    "static/js/2.5549e81f.chunk.js.map": "/static/js/2.5549e81f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c81615f6dc6ca9d99c67f9a311b24d8b.js": "/precache-manifest.c81615f6dc6ca9d99c67f9a311b24d8b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8d1266e4.chunk.css.map": "/static/css/main.8d1266e4.chunk.css.map",
+    "static/js/2.5549e81f.chunk.js.LICENSE.txt": "/static/js/2.5549e81f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/bcg.df9409c8.jpeg",
+    "static/media/burgerapp.png": "/static/media/burgerapp.220af387.png",
+    "static/media/headshot.jpg": "/static/media/headshot.5c0be235.jpg",
+    "static/media/lotapp.png": "/static/media/lotapp.3d2f52f4.png",
+    "static/media/phone.jpeg": "/static/media/phone.9794550a.jpeg",
+    "static/media/pokemood.png": "/static/media/pokemood.61d5a57d.png",
+    "static/media/quiz.png": "/static/media/quiz.21144dc8.png",
+    "static/media/resume.png": "/static/media/resume.39529808.png",
+    "static/media/trackthattrack.png": "/static/media/trackthattrack.1cd4225d.png",
+    "static/media/weatherapp.png": "/static/media/weatherapp.3a8ec8a8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0eeac3f4.js",
+    "static/js/2.5549e81f.chunk.js",
+    "static/css/main.8d1266e4.chunk.css",
+    "static/js/main.1cefe1e5.chunk.js"
+  ]
+}
